@@ -7,6 +7,37 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppHeaderComponent implements OnInit {
 
+  menuItems = [
+    {
+      'icon' : '../../assets/hamburger.png',
+      'title' : 'دسته بندی'
+    },
+    {
+      'icon' : '../../assets/hamburger.png',
+      'title' : 'دسته بندی'
+    },
+    {
+      'icon' : '../../assets/hamburger.png',
+      'title' : 'دسته بندی'
+    },
+    {
+      'icon' : '../../assets/hamburger.png',
+      'title' : 'دسته بندی'
+    },
+    {
+      'icon' : '../../assets/hamburger.png',
+      'title' : 'دسته بندی'
+    },
+    {
+      'icon' : null,
+      'title' : 'سوالات متداول'
+    },
+    {
+      'icon' : null,
+      'title' : 'در دیجی کالا بفروشید'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit(): void {

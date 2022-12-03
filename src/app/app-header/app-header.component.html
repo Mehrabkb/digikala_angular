@@ -31,4 +31,14 @@
       </ul>
     </div>
   </div>
+  <div class="bottom">
+    <nav>
+      <ul>
+        <li *ngFor="let menuItem of menuItems">
+          <img *ngIf="menuItem.icon != null" src="{{ menuItem.icon }}" alt="">
+          <span>{{ menuItem.title }}</span>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>

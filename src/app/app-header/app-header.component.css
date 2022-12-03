@@ -70,3 +70,21 @@ header .top .accounting ul li a{
 header .top .accounting ul li:last-child img{
   transform: rotateY(180deg);
 }
+header .bottom{
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+header .bottom nav{
+  width : 90%;
+}
+header .bottom nav ul {
+  display: flex;
+  align-items: center;
+}
+header .bottom nav ul li img{
+  vertical-align: middle;
+}
+header .bottom nav ul li{
+  padding : 0 10px;
+}
