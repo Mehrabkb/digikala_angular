@@ -1,0 +1,29 @@
+<app-home-slider></app-home-slider>
+<section id="categories">
+  <h2>دسته بندی های کالا</h2>
+  <div class="items">
+    <div class="item" *ngFor="let category of categories">
+      <a href="">
+        <img src="{{ category }}" alt="">
+        <h4>موبایل</h4>
+      </a>
+    </div>
+  </div>
+</section>
+<section id="ads">
+  <div class="container">
+    <div class="item" *ngFor="let ad of ads">
+      <a href="">
+        <img src="{{ ad }}" alt="">
+      </a>
+    </div>
+  </div>
+</section>
+<section id="proposal">
+  <div class="container">
+    <div class="item" *ngFor="let proposalItem of proposalItems">
+      <img src="{{ proposalItem }}" alt="">
+      <h4>موبایل</h4>
+    </div>
+  </div>
+</section>

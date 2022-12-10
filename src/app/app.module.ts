@@ -4,15 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
+import { HomeComponent } from './home/home.component';
+import { HomeSliderComponent } from './home-slider/home-slider.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppHeaderComponent
+    AppHeaderComponent,
+    HomeComponent,
+    HomeSliderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,72 @@
+h2{
+  text-align: center;
+  font-size : 1.6rem;
+  padding : 20px 0 ;
+}
+.items{
+  width: 80%;
+  margin : 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.items .item{
+  width : 16%;
+  text-align: center;
+  margin : 30px 0 ;
+}
+.items .item a {
+  text-decoration : none;
+  color : #000;
+}
+.items .item img{
+  width: 80%;
+}
+section#ads{
+  width :80%;
+  margin : 0 auto;
+}
+section#ads .container{
+  display: flex;
+  justify-content: space-around;
+}
+section#ads .container .item{
+  width: 49%;
+}
+section#ads .container .item img{
+  width: 100%;
+  border-radius: 15px;
+}
+section#proposal {
+  width: 80%;
+  margin : 30px auto;
+  border : 1px solid #000;
+  border-radius: 10px;
+}
+section#proposal .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+section#proposal .container .item{
+  width: 14.1%;
+  border : 1px solid #999;
+  text-align: center;
+}
+section#proposal .container .item img{
+  width: 70%;
+}
+section#proposal .container .item:first-child{
+  border-top-right-radius: 10px;
+}
+section#proposal .container .item:nth-child(7){
+  border-top-left-radius: 10px;
+}
+section#proposal .container .item:nth-child(8){
+  border-bottom-right-radius: 10px;
+}
+section#proposal .container .item:last-child{
+  border-bottom-left-radius: 10px;
+}
+section#proposal .container .item h4{
+  padding-bottom: 10px;
+}
