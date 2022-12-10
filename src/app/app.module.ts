@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { HomeComponent } from './home/home.component';
 import { HomeSliderComponent } from './home-slider/home-slider.component';
+import { SwiperModule } from 'swiper/angular';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HomeSliderComponent } from './home-slider/home-slider.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import SwiperCore, { SwiperOptions } from 'swiper';
+import Swiper from 'swiper';
 
 @Component({
   selector: 'app-home-slider',
@@ -11,6 +13,11 @@ export class HomeSliderComponent implements OnInit {
     '../../assets/slider2.gif' ,
     '../../assets/slider2.jpg'
   ]
+  config: SwiperOptions = {
+    slidesPerView: 1,
+    direction: 'horizontal',
+    pagination: { clickable: true }
+  };
   constructor() { }
 
   ngOnInit(): void {
