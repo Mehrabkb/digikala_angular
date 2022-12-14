@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { HomeSliderComponent } from './home-slider/home-slider.component';
 import { SwiperModule } from 'swiper/angular';
 import { ReadsComponent } from './reads/reads.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ReadsComponent } from './reads/reads.component';
     AppHeaderComponent,
     HomeComponent,
     HomeSliderComponent,
-    ReadsComponent
+    ReadsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

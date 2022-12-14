@@ -1,0 +1,105 @@
+footer{
+  border-top: 1px solid #999;
+}
+footer .top .container{
+  display: flex;
+  padding : 20px;
+  box-sizing: border-box;
+}
+footer .top .container > div{
+  width: 50%;
+}
+footer .top .container .left{
+  text-align: left;
+}
+footer .top .container .right p{
+  padding : 20px 0 0 0 ;
+}
+footer .top .container .left a {
+  border : 1px solid #999;
+  padding : 5px 10px;
+  color : #000;
+  text-decoration : none;
+}
+footer .mazaya .items{
+  width: 80%;
+  margin : 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+footer .mazaya .items .item{
+  width: 20%;
+  text-align: center;
+}
+footer .footer-menu .container{
+  display: flex;
+  padding : 20px 0 0 0 ;
+}
+footer .footer-menu .container .item{
+  width: 25%;
+}
+footer .footer-menu .container .item ul {
+  list-style: none;
+}
+footer .footer-menu .container .item ul li{
+  padding : 7px 0;
+}
+footer .footer-menu .container .item ul li:first-child{
+  font-weight: bold;
+}
+footer .footer-menu .container .item:last-child{
+  padding : 30px 0 ;
+  box-sizing: border-box;
+}
+footer .footer-menu .container .item:last-child p{
+  padding : 20px 0 ;
+}
+footer .footer-menu .container .item:last-child form{
+  display: flex;
+}
+footer .footer-menu .container .item:last-child form input{
+  background : #eee;
+  width: 70%;
+  border : none;
+
+}
+.apps{
+  background : #3c4b6d;
+  display: flex;
+  padding : 20px;
+  box-sizing: border-box;
+  width: 95%;
+  margin : 10px auto;
+  border-radius: 15px;
+}
+.apps > div{
+  width: 50%;
+}
+.apps .right img{
+  width: 50px;
+  vertical-align: middle;
+}
+.apps .right span {
+  color : #fff;
+  margin-right: 10px;
+}
+.apps .left .items{
+  display: flex;
+  justify-content: space-around;
+}
+.about-us{
+  display: flex;
+}
+.about-us > div{
+  width: 50%;
+}
+.about-us .right{
+
+}
+footer .about-us .left .items{
+  display: flex;
+  justify-content: flex-end;
+}
+footer .about-us .left .items .item img{
+  width : 100px;
+}
