@@ -1,0 +1,45 @@
+section#reads .container{
+  width: 80%;
+  margin : 0 auto;
+}
+section#reads .container .top{
+  display: flex;
+}
+section#reads .container .top > div{
+  width: 50%;
+}
+section#reads .container .top .title h4{
+  font-size : 1.3rem;
+}
+section#reads .container .top .more {
+  text-align: left;
+}
+section#reads .container .top .more a {
+  text-decoration : none;
+  color : rgb(55, 182, 246);
+}
+section#reads .container .body .items{
+  display: flex;
+  justify-content: space-around;
+  padding : 20px 0 ;
+}
+section#reads .container .body .items .item{
+  width :23%;
+  border : 1px solid #999;
+  border-radius: 10px;
+  height: 250px;
+}
+section#reads .container .body .items .item a {
+  text-decoration : none;
+  color : #000;
+}
+section#reads .container .body .items .item img{
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 70%;
+}
+section#reads .container .body .items .item h3{
+  padding : 5px 5px ;
+  box-sizing: border-box;
+}

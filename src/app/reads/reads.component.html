@@ -1,0 +1,24 @@
+<section id="reads">
+  <div class="container">
+    <div class="top">
+      <div class="title">
+        <h4>خواندنی ها</h4>
+      </div>
+      <div class="more">
+        <a href="">
+          مطالب بیشتر در دیجی کالا مگ
+        </a>
+      </div>
+    </div>
+    <div class="body">
+      <div class="items">
+        <div class="item" *ngFor="let item of items">
+          <a href="">
+            <img src="{{ item.img }}" alt="">
+            <h3>{{ item.title }}</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

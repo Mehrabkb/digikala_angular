@@ -23,10 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "swiper/css",
-              "swiper/css/navigation",
-              "swiper/css/pagination"
+              "src/styles.css"
             ],
             "scripts": []
           },
