@@ -5,7 +5,8 @@ import Swiper from 'swiper';
 @Component({
   selector: 'app-home-slider',
   templateUrl: './home-slider.component.html',
-  styleUrls: ['./home-slider.component.css']
+  styleUrls: ['./home-slider.component.css'],
+  encapsulation  :ViewEncapsulation.ShadowDom
 })
 export class HomeSliderComponent implements OnInit {
   slides = [

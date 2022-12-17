@@ -1,7 +1,7 @@
 <header>
   <div class="top">
     <div class="logo">
-      <a href="">
+      <a routerLink="/">
         <img src="../../assets/logo.svg" alt="">
       </a>
     </div>
@@ -35,8 +35,10 @@
     <nav>
       <ul>
         <li *ngFor="let menuItem of menuItems">
-          <img *ngIf="menuItem.icon != null" src="{{ menuItem.icon }}" alt="">
-          <span>{{ menuItem.title }}</span>
+          <a routerLink="{{ menuItem.link }}">
+            <img *ngIf="menuItem.icon != null" src="{{ menuItem.icon }}" alt="">
+            <span>{{ menuItem.title }}</span>
+          </a>
         </li>
       </ul>
     </nav>

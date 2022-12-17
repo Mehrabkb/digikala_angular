@@ -10,31 +10,38 @@ export class AppHeaderComponent implements OnInit {
   menuItems = [
     {
       'icon' : '../../assets/hamburger.png',
-      'title' : 'دسته بندی'
+      'title' : 'دسته بندی',
+      'link' : '/faq'
     },
     {
       'icon' : '../../assets/hamburger.png',
-      'title' : 'دسته بندی'
+      'title' : 'دسته بندی',
+      'link' : '/faq'
     },
     {
       'icon' : '../../assets/hamburger.png',
-      'title' : 'دسته بندی'
+      'title' : 'دسته بندی',
+      'link' : '/faq'
     },
     {
       'icon' : '../../assets/hamburger.png',
-      'title' : 'دسته بندی'
+      'title' : 'دسته بندی',
+      'link' : '/faq'
     },
     {
       'icon' : '../../assets/hamburger.png',
-      'title' : 'دسته بندی'
+      'title' : 'دسته بندی',
+      'link' : '/faq'
     },
     {
       'icon' : null,
-      'title' : 'سوالات متداول'
+      'title' : 'سوالات متداول',
+      'link' : '/faq'
     },
     {
       'icon' : null,
-      'title' : 'در دیجی کالا بفروشید'
+      'title' : 'در دیجی کالا بفروشید',
+      'link' : '/faq'
     }
   ]
 

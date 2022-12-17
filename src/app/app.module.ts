@@ -9,6 +9,7 @@ import { HomeSliderComponent } from './home-slider/home-slider.component';
 import { SwiperModule } from 'swiper/angular';
 import { ReadsComponent } from './reads/reads.component';
 import { FooterComponent } from './footer/footer.component';
+import { FaqComponent } from './faq/faq.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     HomeSliderComponent,
     ReadsComponent,
-    FooterComponent
+    FooterComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
