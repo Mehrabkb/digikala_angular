@@ -10,6 +10,7 @@ import { SwiperModule } from 'swiper/angular';
 import { ReadsComponent } from './reads/reads.component';
 import { FooterComponent } from './footer/footer.component';
 import { FaqComponent } from './faq/faq.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -19,13 +20,13 @@ import { FaqComponent } from './faq/faq.component';
     HomeComponent,
     HomeSliderComponent,
     ReadsComponent,
-    FooterComponent,
-    FaqComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SwiperModule
+    SwiperModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
