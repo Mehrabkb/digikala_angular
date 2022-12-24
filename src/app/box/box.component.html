@@ -1,0 +1,23 @@
+<div class="container">
+  <section id="box">
+    <swiper [config]="config" >
+
+      <ng-template class="item" swiperSlide *ngFor="let slide of slides">
+          <div class="first" *ngIf="slide.price == null">
+            <p>{{ slide.text }}</p>
+            <img src="{{ slide.image }}" alt="">
+            <br>
+            <a href="">
+              {{ slide.text_link }}
+            </a>
+          </div>
+          <a href="" *ngIf="slide.price != null">
+            <img src="{{ slide.image }}" alt="">
+            <p>{{ slide.price }} تومان</p>
+            <span>{{ slide.off }}</span>
+          </a>
+      </ng-template>
+    </swiper>
+  </section>
+</div>
+

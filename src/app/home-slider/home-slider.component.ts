@@ -18,6 +18,7 @@ export class HomeSliderComponent implements OnInit {
     slidesPerView: 1,
     direction: 'horizontal',
     pagination: { clickable: true }
+
   };
   constructor() { }
 

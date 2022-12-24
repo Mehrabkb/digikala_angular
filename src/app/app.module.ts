@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FaqComponent } from './faq/faq.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
+import { BoxComponent } from './box/box.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     HomeSliderComponent,
     ReadsComponent,
-    FooterComponent
+    FooterComponent,
+    BoxComponent
   ],
   imports: [
     BrowserModule,

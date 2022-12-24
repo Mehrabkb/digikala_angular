@@ -88,3 +88,7 @@ header .bottom nav ul li img{
 header .bottom nav ul li{
   padding : 0 10px;
 }
+header .bottom nav ul li a{
+  text-decoration : none;
+  color : #000;
+}

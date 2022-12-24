@@ -1,4 +1,49 @@
 <app-home-slider></app-home-slider>
+<section id="more">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col text-center" *ngFor="let moreItem of moreItems">
+        <a href="{{ moreItem.link }}" class="text-decoration-none text-dark">
+          <img src="{{ moreItem.icon }}" class="w-50" alt="">
+          <h5 class="lh-lg">{{ moreItem.text }}</h5>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <app-box></app-box>
+</div>
+<div class="container">
+  <section id="fresh-box">
+    <a href="" class="h-100 text-decoration-none" >
+      <div class="row h-100">
+        <div class="col-6 h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-3 text-center">
+              <img src="../../assets/fresh.png" alt="">
+            </div>
+            <div class="col-6">
+              <img src="../../assets/fresh.svg" alt="">
+            </div>
+            <div class="col-3">
+              <a href="" class="off-link">تا 45% تخفیف</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col text-center fresh-item" *ngFor="let freshItem of freshItems">
+              <img src="{{ freshItem.image }}" class="w-75" alt="">
+              <span>{{ freshItem.off }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+   </section>
+  </div>
 <section id="categories">
   <h2>دسته بندی های کالا</h2>
   <div class="items">
