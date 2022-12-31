@@ -13,6 +13,7 @@ import { FaqComponent } from './faq/faq.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { BoxComponent } from './box/box.component';
+import { SingleComponent } from './single/single.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BoxComponent } from './box/box.component';
     HomeSliderComponent,
     ReadsComponent,
     FooterComponent,
-    BoxComponent
+    BoxComponent,
+    SingleComponent
   ],
   imports: [
     BrowserModule,

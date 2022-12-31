@@ -11,7 +11,7 @@
               {{ slide.text_link }}
             </a>
           </div>
-          <a href="" *ngIf="slide.price != null">
+          <a routerLink="/single" *ngIf="slide.price != null">
             <img src="{{ slide.image }}" alt="">
             <p>{{ slide.price }} تومان</p>
             <span>{{ slide.off }}</span>

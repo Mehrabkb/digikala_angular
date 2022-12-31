@@ -17,7 +17,7 @@ export class BoxComponent implements OnInit {
     {
       'image' : '../../assets/payeseshoar.jpg',
       'price' : '359,000',
-      'off' : '30%',
+      'off' : '30%'
     },
     {
       'image' : '../../assets/payeseshoar.jpg',
